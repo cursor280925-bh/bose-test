@@ -1,4 +1,4 @@
-3819
+3892
 54D:\cursor-draft\bose-test\src\img\header-bg-desk@2.png134035624326632904 0
 65D:\cursor-draft\bose-test\node_modules\@lezer\common\package.json134031133397510905 0
 90D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_unsupported_iterable_to_array.mjs134031133463495502 0
@@ -18,6 +18,7 @@
 43D:\cursor-draft\bose-test\node_modules\@swc134038053846667633 1
 67D:\cursor-draft\bose-test\node_modules\sass\types\deprecations.d.ts134031176396821712 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\NR.js134031133796444084 0
+69D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_mob.c91d6f7e.png134038103284533309 0
 38D:\cursor-draft\bose-test\package.json134031192732143258 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\BM.js134031133647526700 0
 79D:\cursor-draft\bose-test\node_modules\@parcel\core\lib\public\PluginOptions.js134031133541817986 0
@@ -51,7 +52,7 @@
 49D:\cursor-draft\bose-test\node_modules\parcel\lib134038052990710298 1
 55D:\cursor-draft\bose-test\src\scss\layout\_buttons.scss134038004786050170 0
 64D:\cursor-draft\bose-test\dist\speakers_square_tabl.23e6ac85.png134038070411083725 0
-30D:\cursor-draft\bose-test\dist134038070411437302 1
+30D:\cursor-draft\bose-test\dist134038103284656664 1
 54D:\cursor-draft\bose-test\node_modules\clone\clone.iml134031133397301368 0
 69D:\cursor-draft\bose-test\node_modules\semver\functions\prerelease.js134031133453455160 0
 69D:\cursor-draft\bose-test\dist\Portable_bluetooth_tabl@2.4ef2a4cf.png134038070410962810 0
@@ -157,6 +158,7 @@
 84D:\cursor-draft\bose-test\node_modules\node-gyp-build-optional-packages\package.json134031133397280471 0
 72D:\cursor-draft\bose-test\node_modules\postcss-value-parser\lib\index.js134031133396934285 0
 84D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\background-sync.js134031133484750159 0
+68D:\cursor-draft\bose-test\dist\Portable_bluetooth_mob@2.f5caa3f8.png134038103264812229 0
 40D:\cursor-draft\bose-test\src\scss\utils134038052993608265 1
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\EC.js134031133648741174 0
 44D:\cursor-draft\bose-test\node_modules\json5134038052988603952 1
@@ -285,6 +287,7 @@
 71D:\cursor-draft\bose-test\node_modules\@swc\helpers\cjs\_call_super.cjs134031133432257759 0
 86D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\createimagebitmap.js134031133647894465 0
 78D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\maxlength.js134031133792593467 0
+67D:\cursor-draft\bose-test\dist\Portable_bluetooth_tabl.67f34aed.png134038103279855791 0
 93D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two134038052972776588 1
 49D:\cursor-draft\bose-test\node_modules\fill-range134038052988270071 1
 82D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_inherits_loose\package.json134031133460502738 0
@@ -398,6 +401,7 @@
 90D:\cursor-draft\bose-test\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js134031133461311258 0
 64D:\cursor-draft\bose-test\node_modules\dotenv\lib\cli-options.js134031133769793960 0
 73D:\cursor-draft\bose-test\src\img\category\audio_sunglasses_wibe_tabl.png134035376320000000 0
+66D:\cursor-draft\bose-test\dist\speakers_square_desk@2.f3a06372.png134038103279855791 0
 76D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_async_generator.mjs134031133461313900 0
 75D:\cursor-draft\bose-test\node_modules\lightningcss\node\composeVisitors.js134031133401573741 0
 59D:\cursor-draft\bose-test\node_modules\nullthrows\README.md134031133397296165 0
@@ -416,6 +420,7 @@
 79D:\cursor-draft\bose-test\src\img\category\headphones&earbuds324x320_desk@2.png134035440160000000 0
 79D:\cursor-draft\bose-test\src\img\category\headphones&earbuds672x320_desk@2.png134035440160000000 0
 55D:\cursor-draft\bose-test\node_modules\semver\functions134038052991518454 1
+64D:\cursor-draft\bose-test\dist\speakers_square_tabl.04e6a0cb.png134038103279855791 0
 77D:\cursor-draft\bose-test\node_modules\@parcel\core\src\public\BundleGraph.js134031133523483068 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\IL.js134031133788531400 0
 78D:\cursor-draft\bose-test\node_modules\electron-to-chromium\full-versions.json134031133406767901 0
@@ -553,6 +558,7 @@
 59D:\cursor-draft\bose-test\node_modules\postcss-value-parser134038052990904630 1
 59D:\cursor-draft\bose-test\node_modules\lmdb\src\lmdb-js.cpp134031133398408342 0
 47D:\cursor-draft\bose-test\node_modules\chokidar134038052987699411 1
+60D:\cursor-draft\bose-test\dist\footer-bg-desk@2.520f1669.png134038103284533309 0
 77D:\cursor-draft\bose-test\node_modules\@parcel\transformer-babel\package.json134031133460591045 0
 49D:\cursor-draft\bose-test\node_modules\color-name134038052987838416 1
 52D:\cursor-draft\bose-test\node_modules\dotenv-expand134038052988066904 1
@@ -632,6 +638,7 @@
 85D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\meta-theme-color.js134031133795391991 0
 73D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_mob.b5f0074f.png134038070410830163 0
 92D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\stricttransportsecurity.js134031133802262964 0
+60D:\cursor-draft\bose-test\dist\bg-header-tabl@2.c4636d43.png134038103264812229 0
 52D:\cursor-draft\bose-test\node_modules\react-refresh134038052990970593 1
 70D:\cursor-draft\bose-test\node_modules\semver\ranges\max-satisfying.js134031133453306705 0
 47D:\cursor-draft\bose-test\node_modules\readdirp134038052991032574 1
@@ -653,6 +660,7 @@
 76D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_super_prop_base.mjs134031133463280465 0
 61D:\cursor-draft\bose-test\node_modules\commander\lib\error.js134031133397268074 0
 70D:\cursor-draft\bose-test\node_modules\source-map-js\lib\quick-sort.js134031176355463099 0
+72D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_tabl@2.7e1c1cd8.png134038103284533309 0
 72D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_tabl@2.14ac12d6.png134038070411008123 0
 52D:\cursor-draft\bose-test\node_modules\source-map-js134038052991796450 1
 96D:\cursor-draft\bose-test\node_modules\@swc\helpers\cjs\_create_for_of_iterator_helper_loose.cjs134031133432740125 0
@@ -664,6 +672,7 @@
 88D:\cursor-draft\bose-test\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs134031133432996956 0
 64D:\cursor-draft\bose-test\node_modules\semver\functions\major.js134031133453292701 0
 110D:\cursor-draft\bose-test\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1134031133981415992 0
+69D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_mob.3607afcc.png134038103284533309 0
 44D:\cursor-draft\bose-test\node_modules\tslib134038052991970532 1
 84D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_class_private_field_get.mjs134031133461922757 0
 65D:\cursor-draft\bose-test\node_modules\semver\functions\coerce.js134031133452902591 0
@@ -676,6 +685,7 @@
 82D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_initializer_define_property134038052981034103 1
 78D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\mpeg-dash.js134031133795595196 0
 66D:\cursor-draft\bose-test\node_modules\source-map-js\lib\base64.js134031176355402971 0
+57D:\cursor-draft\bose-test\dist\bose-test.aea30cbc.css.map134038103284656664 0
 66D:\cursor-draft\bose-test\node_modules\@parcel\workers\src\process134038052978049856 1
 88D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_ts_dispose_resources\package.json134031133460925379 0
 53D:\cursor-draft\bose-test\node_modules\weak-lru-cache134038052992490566 1
@@ -698,6 +708,7 @@
 79D:\cursor-draft\bose-test\node_modules\@parcel\utils\src\dependency-location.js134031133478860688 0
 64D:\cursor-draft\bose-test\node_modules\weak-lru-cache\index.d.ts134031133397552867 0
 62D:\cursor-draft\bose-test\node_modules\weak-lru-cache\index.js134031133397016389 0
+52D:\cursor-draft\bose-test\dist\Logo-mob.31635d3f.png134038103284533309 0
 56D:\cursor-draft\bose-test\node_modules\parcel\src\cli.js134031133560575931 0
 53D:\cursor-draft\bose-test\node_modules\.bin\json5.cmd134031133981344075 0
 68D:\cursor-draft\bose-test\node_modules\weak-lru-cache\LRFUExpirer.js134031133397086298 0
@@ -956,6 +967,7 @@
 59D:\cursor-draft\bose-test\node_modules\tslib\tslib.es6.html134031133396840378 0
 77D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\webauthn.js134031133805550582 0
 54D:\cursor-draft\bose-test\node_modules\lmdb\caching.js134031133398692378 0
+72D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_desk@2.f229fc07.png134038103279855791 0
 65D:\cursor-draft\bose-test\node_modules\sass\types\value\list.d.ts134031176396969800 0
 80D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\user-timing.js134031133805393754 0
 80D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\wbr-element.js134031133805550582 0
@@ -1329,6 +1341,7 @@
 69D:\cursor-draft\bose-test\node_modules\@parcel\runtime-service-worker134038052975272843 1
 100D:\cursor-draft\bose-test\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib134038052990478708 1
 91D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\getelementsbyclassname.js134031133784593774 0
+58D:\cursor-draft\bose-test\dist\header-bg-desk.958c19ff.png134038103279855791 0
 60D:\cursor-draft\bose-test\node_modules\ansi-styles\readme.md134031133397051802 0
 109D:\cursor-draft\bose-test\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\package.json134031133518429823 0
 64D:\cursor-draft\bose-test\node_modules\lightningcss\package.json134031133401643276 0
@@ -1544,6 +1557,7 @@
 72D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\parcel134038052972671151 1
 52D:\cursor-draft\bose-test\node_modules\lmdb\write.js134031133398824090 0
 80D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_ts_generator\package.json134031133461013401 0
+59D:\cursor-draft\bose-test\dist\bg-footer-mob@2.02447dcb.png134038103279855791 0
 69D:\cursor-draft\bose-test\node_modules\@parcel\watcher\src\Backend.cc134031133396937336 0
 70D:\cursor-draft\bose-test\node_modules\lmdb\util\set-optional-deps.cjs134031133398251996 0
 67D:\cursor-draft\bose-test\node_modules\@parcel\workers\src\types.js134031133454483072 0
@@ -1593,6 +1607,7 @@
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\offline-apps.js134031133797537718 0
 86D:\cursor-draft\bose-test\node_modules\@parcel\core\lib\requests\BundleGraphRequest.js134031133523483068 0
 78D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css3-attr.js134031133648482471 0
+75D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_mob@2.4d69a836.png134038103264812229 0
 113D:\cursor-draft\bose-test\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-arm64.node134031133397861219 0
 58D:\cursor-draft\bose-test\node_modules\color-name\index.js134031133396912956 0
 69D:\cursor-draft\bose-test\node_modules\lmdb\dependencies\lmdb-data-v1134038052989175318 1
@@ -1742,6 +1757,7 @@
 54D:\cursor-draft\bose-test\node_modules\is-glob\LICENSE134031133396845392 0
 59D:\cursor-draft\bose-test\node_modules\is-glob\package.json134031133396984443 0
 69D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_inherits_loose134038052981031286 1
+71D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_mob@2.8298e0fc.png134038103264812229 0
 62D:\cursor-draft\bose-test\node_modules\is-extglob\package.json134031133396840378 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\CX.js134031133648525729 0
 73D:\cursor-draft\bose-test\node_modules\@parcel\core\src\resolveOptions.js134031133553915699 0
@@ -1815,6 +1831,7 @@
 55D:\cursor-draft\bose-test\node_modules\dotenv\README.md134031133769793960 0
 89D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\font-variant-numeric.js134031133784440003 0
 64D:\cursor-draft\bose-test\node_modules\dotenv\lib\env-options.js134031133769793960 0
+74D:\cursor-draft\bose-test\dist\audio_sunglasses_square_desk@2.23069a08.png134038103279855791 0
 68D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features.js134031133648878170 0
 59D:\cursor-draft\bose-test\node_modules\dotenv\lib\main.d.ts134031133769793960 0
 57D:\cursor-draft\bose-test\node_modules\dotenv\lib\main.js134031133769793960 0
@@ -1860,6 +1877,7 @@
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\GQ.js134031133786338300 0
 62D:\cursor-draft\bose-test\node_modules\chokidar\esm\index.d.ts134031176355531561 0
 55D:\cursor-draft\bose-test\node_modules\chalk\index.d.ts134031133397439518 0
+49D:\cursor-draft\bose-test\dist\icons.c5b0f01c.svg134038103279924053 0
 75D:\cursor-draft\bose-test\node_modules\@parcel\watcher\src\PromiseRunner.hh134031133397967559 0
 52D:\cursor-draft\bose-test\node_modules\chalk\license134031133396859609 0
 77D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\download.js134031133648713343 0
@@ -2183,6 +2201,7 @@
 88D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\background-img-opts.js134031133484688255 0
 92D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\background-position-x-y.js134031133484688255 0
 99D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_object_without_properties_loose\package.json134031133460765473 0
+74D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_desk.911dca73.png134038103264812229 0
 80D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\blobbuilder.js134031133647523913 0
 89D:\cursor-draft\bose-test\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts134038052975867459 1
 82D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\border-radius.js134031133647554890 0
@@ -2196,6 +2215,7 @@
 92D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\comparedocumentposition.js134031133647856135 0
 96D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\duplicate-targets\package.json134031133577401063 0
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\console-time.js134031133647866133 0
+78D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_tabl@2.052dfc06.png134038103284533309 0
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\setimmediate.js134031133801912299 0
 74D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\const.js134031133647866133 0
 90D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\constraint-validation.js134031133647866133 0
@@ -2277,8 +2297,10 @@
 67D:\cursor-draft\bose-test\node_modules\@parcel\resolver-default\lib134038052974923587 1
 78D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-masks.js134031133648170005 0
 87D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-matches-pseudo.js134031133648170005 0
+72D:\cursor-draft\bose-test\dist\audio_sunglasses_square_tabl.d29aa187.png134038103279855791 0
 87D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-math-functions.js134031133648170005 0
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\wasm-threads.js134031133805550582 0
+75D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_mob.3bca0714.png134038103284533309 0
 90D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-media-interaction.js134031133648170005 0
 91D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\indeterminate-checkbox.js134031133788531400 0
 89D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-media-resolution.js134031133648170005 0
@@ -2302,6 +2324,7 @@
 58D:\cursor-draft\bose-test\node_modules\@parcel\packager-js134038052974373208 1
 84D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-paged-media.js134031133648170005 0
 82D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-paint-api.js134031133648170005 0
+66D:\cursor-draft\bose-test\dist\speakers_square_tabl@2.965a1025.png134038103284533309 0
 88D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-read-only-write.js134031133648326240 0
 88D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-relative-colors.js134031133648326240 0
 77D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-sel2.js134031133648326240 0
@@ -2313,6 +2336,7 @@
 80D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-subgrid.js134031133648326240 0
 85D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-supports-api.js134031133648326240 0
 65D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_instanceof134038052981034103 1
+61D:\cursor-draft\bose-test\dist\speakers_wibe_mob.c0566a88.png134038103284533309 0
 76D:\cursor-draft\bose-test\node_modules\@parcel\source-map\dist\types.js.flow134031133397030562 0
 72D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_apply_decs_2203_r134038052980588118 1
 133D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules\parcel-config-local\index.json134031133577401063 0
@@ -2344,6 +2368,7 @@
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css3-cursors.js134031133648522581 0
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css3-tabsize.js134031133648525729 0
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\currentcolor.js134031133648525729 0
+73D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_mob.809c596f.png134038103284533309 0
 86D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\custom-elementsv1.js134031133648525729 0
 84D:\cursor-draft\bose-test\node_modules\@parcel\transformer-js\src\mdx-components.jsx134031133464953485 0
 81D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_object_destructuring_empty134038052981103337 1
@@ -2428,6 +2453,7 @@
 55D:\cursor-draft\bose-test\node_modules\@parcel\rust\src134038052975339940 1
 78D:\cursor-draft\bose-test\node_modules\@parcel\watcher\src\wasm\WasmBackend.hh134031133397985747 0
 84D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\iframe-seamless.js134031133788531400 0
+77D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_mob@2.c6e9696e.png134038103264812229 0
 82D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\iframe-srcdoc.js134031133788531400 0
 73D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\webm.js134031133805680546 0
 85D:\cursor-draft\bose-test\node_modules\@parcel\error-overlay\src\utils\stack-frame.js134031133452704702 0
@@ -2470,6 +2496,7 @@
 77D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\jpeg2000.js134031133790249993 0
 75D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\jpegxr.js134031133790249993 0
 73D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\json.js134031133790249993 0
+52D:\cursor-draft\bose-test\dist\bose-test.f175d581.js134038103284533309 0
 52D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js134038070410675982 0
 97D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\justify-content-space-evenly.js134031133790249993 0
 61D:\cursor-draft\bose-test\node_modules\@parcel\events\LICENSE134031133478862868 0
@@ -2608,7 +2635,7 @@
 85D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\webkit-user-drag.js134031133805680546 0
 65D:\cursor-draft\bose-test\node_modules\@parcel\utils\package.json134031133820988004 0
 75D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\webnfc.js134031133805680546 0
-41D:\cursor-draft\bose-test\dist\index.html134038070410996248 0
+41D:\cursor-draft\bose-test\dist\index.html134038103284533309 0
 79D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\websockets.js134031133805680546 0
 81D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\webtransport.js134031133805680546 0
 75D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\webusb.js134031133805680546 0
@@ -2674,6 +2701,7 @@
 81D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_class_apply_descriptor_get134038052980693191 1
 59D:\cursor-draft\bose-test\node_modules\@swc\helpers\LICENSE134031133431776776 0
 55D:\cursor-draft\bose-test\node_modules\@swc\helpers\src134038052980588118 1
+62D:\cursor-draft\bose-test\dist\speakers_wibe_desk.b16d9f9e.png134038103264812229 0
 65D:\cursor-draft\bose-test\node_modules\@parcel\utils\src\index.js134031133816292108 0
 59D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\index134038052980588118 1
 108D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\invalid-target-source-missing\package.json134031133577401063 0
@@ -2717,6 +2745,7 @@
 71D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_get_prototype_of134038052980971145 1
 63D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_identity134038052980971145 1
 81D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_initializer_warning_helper134038052981034103 1
+48D:\cursor-draft\bose-test\dist\Logo.24a8cbd1.png134038103264812229 0
 78D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_interop_require_default134038052981034103 1
 82D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_is_native_reflect_construct134038052981069261 1
 72D:\cursor-draft\bose-test\node_modules\@swc\helpers\_\_iterable_to_array134038052981069261 1
@@ -2878,6 +2907,7 @@
 69D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_to_array.mjs134031133463396390 0
 80D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_to_consumable_array.mjs134031133463403994 0
 73D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_to_primitive.mjs134031133463403994 0
+72D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_desk@2.5525e7f1.png134038103279855791 0
 76D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_to_property_key.mjs134031133463425613 0
 87D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_ts_add_disposable_resource.mjs134031133463425613 0
 81D:\cursor-draft\bose-test\node_modules\@swc\helpers\src\_ts_dispose_resources.mjs134031133463434979 0
@@ -2900,6 +2930,7 @@
 68D:\cursor-draft\bose-test\node_modules\@swc\helpers\scripts\utils.js134031133459546940 0
 92D:\cursor-draft\bose-test\node_modules\@parcel\runtime-js\lib\helpers\browser\wasm-loader.js134031133461980839 0
 64D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\index.js134031133459524486 0
+65D:\cursor-draft\bose-test\dist\speakers_square_mob@2.5dbd951f.png134038103264812229 0
 69D:\cursor-draft\bose-test\dist\Portable_bluetooth_desk@2.a7978162.png134038070411083725 0
 77D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_apply_decs_2203_r.js134031133456785553 0
 79D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_array_without_holes.js134031133456832378 0
@@ -2924,6 +2955,7 @@
 90D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_field_loose_base.js134031133457184487 0
 87D:\cursor-draft\bose-test\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js134031133461219891 0
 89D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_field_loose_key.js134031133457221785 0
+56D:\cursor-draft\bose-test\dist\bose-test.f175d581.js.map134038103284656664 0
 56D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js.map134038070411210219 0
 84D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_method_get.js134031133457351017 0
 73D:\cursor-draft\bose-test\node_modules\@parcel\core\src\serializerCore.js134031133554080511 0
@@ -2976,6 +3008,7 @@
 67D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_type_of.js134031133459124198 0
 66D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_update.js134031133459220945 0
 63D:\cursor-draft\bose-test\dist\speakers_wibe_mob@2.c243ee92.png134038070410741347 0
+70D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_tabl.f0a4381b.png134038103279855791 0
 69D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_using_ctx.js134031133459268470 0
 80D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_wrap_async_generator.js134031133459305208 0
 93D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\common-targets\package.json134031133577401063 0
@@ -3124,6 +3157,7 @@
 89D:\cursor-draft\bose-test\node_modules\@parcel\workers\test\integration\workerfarm\ipc.js134031133454139468 0
 73D:\cursor-draft\bose-test\node_modules\@parcel\core\src\CommittedAsset.js134031133526003812 0
 96D:\cursor-draft\bose-test\node_modules\@parcel\workers\test\integration\workerfarm\master-sum.js134031133454192010 0
+57D:\cursor-draft\bose-test\dist\bg-footer-mob.ed8d3d08.png134038103264812229 0
 100D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\common-targets-ignore\package.json134031133577401063 0
 90D:\cursor-draft\bose-test\node_modules\@parcel\workers\test\integration\workerfarm\ping.js134031133454207026 0
 100D:\cursor-draft\bose-test\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js134031133454344439 0
@@ -3158,6 +3192,7 @@
 66D:\cursor-draft\bose-test\node_modules\@parcel\workers\lib\process134038052977942270 1
 66D:\cursor-draft\bose-test\node_modules\@parcel\workers\lib\threads134038052977952262 1
 67D:\cursor-draft\bose-test\node_modules\@parcel\workers\lib\types.js134031133454467913 0
+76D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_desk@2.233a4af8.png134038103279855791 0
 68D:\cursor-draft\bose-test\node_modules\@parcel\workers\lib\Worker.js134031133454562460 0
 72D:\cursor-draft\bose-test\node_modules\@parcel\workers\lib\WorkerFarm.js134031133454606651 0
 75D:\cursor-draft\bose-test\node_modules\@parcel\workers\lib\web\WebWorker.js134031133454537904 0
@@ -3221,6 +3256,7 @@
 112D:\cursor-draft\bose-test\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js134031133457448088 0
 82D:\cursor-draft\bose-test\node_modules\@parcel\utils\test\input\config\config.json134031133820988004 0
 81D:\cursor-draft\bose-test\node_modules\@parcel\utils\test\input\config\empty.json134031133820988004 0
+74D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_desk.2a4d0e6a.png134038103264812229 0
 81D:\cursor-draft\bose-test\node_modules\@parcel\utils\test\input\config\empty.toml134031133864018169 0
 72D:\cursor-draft\bose-test\node_modules\@parcel\utils\src\alternatives.js134031133478589551 0
 76D:\cursor-draft\bose-test\node_modules\@lmdb\lmdb-win32-x64\node.abi108.node134031133397564295 0
@@ -3253,6 +3289,7 @@
 77D:\cursor-draft\bose-test\node_modules\@parcel\types-internal\src\FilePath.js134031133419273681 0
 53D:\cursor-draft\bose-test\node_modules\@parcel\fs\lib134038052973271922 1
 74D:\cursor-draft\bose-test\node_modules\@parcel\types-internal\src\index.js134031133453104693 0
+76D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_desk@2.69fc3964.png134038103279855791 0
 76D:\cursor-draft\bose-test\node_modules\@parcel\types-internal\lib\Cache.d.ts134031133453301671 0
 90D:\cursor-draft\bose-test\node_modules\@parcel\types-internal\lib\DependencySpecifier.d.ts134031133453310677 0
 79D:\cursor-draft\bose-test\node_modules\@parcel\types-internal\lib\FilePath.d.ts134031133453339256 0
@@ -3294,6 +3331,7 @@
 70D:\cursor-draft\bose-test\node_modules\@parcel\transformer-postcss\lib134038052976448357 1
 74D:\cursor-draft\bose-test\node_modules\@parcel\transformer-postcss\LICENSE134031133459119013 0
 79D:\cursor-draft\bose-test\node_modules\@parcel\transformer-postcss\package.json134031133459513647 0
+63D:\cursor-draft\bose-test\dist\speakers_square_mob.fe8cb06c.png134038103284533309 0
 92D:\cursor-draft\bose-test\node_modules\@parcel\transformer-postcss\src\PostCSSTransformer.js134031133459439504 0
 84D:\cursor-draft\bose-test\node_modules\@parcel\transformer-postcss\lib\loadConfig.js134031133459287014 0
 85D:\cursor-draft\bose-test\node_modules\@parcel\transformer-postcss\lib\loadPlugins.js134031133459326502 0
@@ -3365,6 +3403,7 @@
 71D:\cursor-draft\bose-test\node_modules\@parcel\profiler\lib\Tracer.d.ts134031133456441393 0
 71D:\cursor-draft\bose-test\node_modules\@parcel\source-map\dist\types.js134031133397697899 0
 71D:\cursor-draft\bose-test\node_modules\@parcel\source-map\dist\utils.js134031133397705391 0
+59D:\cursor-draft\bose-test\dist\bg-header-mob@2.b331559f.png134038103279855791 0
 76D:\cursor-draft\bose-test\node_modules\@parcel\source-map\dist\utils.js.flow134031133397115366 0
 84D:\cursor-draft\bose-test\node_modules\@parcel\source-map\dist\wasm-bindings.js.flow134031133397322012 0
 70D:\cursor-draft\bose-test\node_modules\@parcel\source-map\dist\wasm.js134031133397754613 0
@@ -3424,6 +3463,7 @@
 67D:\cursor-draft\bose-test\node_modules\@parcel\resolver-default\src134038052974968764 1
 86D:\cursor-draft\bose-test\node_modules\@parcel\resolver-default\lib\DefaultResolver.js134031133461692302 0
 70D:\cursor-draft\bose-test\node_modules\@parcel\reporter-tracer\LICENSE134031133466383938 0
+76D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_tabl.5a0dc083.png134038103279855791 0
 75D:\cursor-draft\bose-test\node_modules\@parcel\reporter-tracer\package.json134031133466487679 0
 84D:\cursor-draft\bose-test\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js134031133466419130 0
 74D:\cursor-draft\bose-test\node_modules\@parcel\reporter-dev-server\LICENSE134031133467821392 0
@@ -3460,6 +3500,7 @@
 70D:\cursor-draft\bose-test\node_modules\@parcel\profiler\lib\index.d.ts134031133456384633 0
 68D:\cursor-draft\bose-test\node_modules\@parcel\profiler\lib\index.js134031133456100302 0
 81D:\cursor-draft\bose-test\node_modules\@parcel\profiler\lib\SamplingProfiler.d.ts134031133456404108 0
+62D:\cursor-draft\bose-test\dist\speakers_wibe_tabl.ffc3e12d.png134038103279855791 0
 106D:\cursor-draft\bose-test\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\package.json134031133512418409 0
 70D:\cursor-draft\bose-test\node_modules\@parcel\profiler\lib\Trace.d.ts134031133456414113 0
 68D:\cursor-draft\bose-test\node_modules\@parcel\profiler\lib\Trace.js134031133456194144 0
@@ -3562,6 +3603,7 @@
 68D:\cursor-draft\bose-test\node_modules\@parcel\namer-default\LICENSE134031133465305522 0
 80D:\cursor-draft\bose-test\node_modules\@parcel\namer-default\src\DefaultNamer.js134031133465365085 0
 64D:\cursor-draft\bose-test\node_modules\@parcel\markdown-ansi\lib134038052973621575 1
+69D:\cursor-draft\bose-test\dist\Portable_bluetooth_tabl@2.11f7347b.png134038103284533309 0
 73D:\cursor-draft\bose-test\node_modules\@parcel\markdown-ansi\package.json134031133408304772 0
 64D:\cursor-draft\bose-test\node_modules\@parcel\markdown-ansi\src134038052973621575 1
 71D:\cursor-draft\bose-test\node_modules\@parcel\core\test\Parcel.test.js134031133537885060 0
@@ -3576,6 +3618,7 @@
 56D:\cursor-draft\bose-test\node_modules\@parcel\graph\src134038052973492691 1
 65D:\cursor-draft\bose-test\node_modules\@parcel\core\lib\Parcel.js134031133537855181 0
 72D:\cursor-draft\bose-test\node_modules\@parcel\graph\test\BitSet.test.js134031133459990593 0
+70D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_desk.2e7be103.png134038103264812229 0
 78D:\cursor-draft\bose-test\node_modules\@parcel\graph\test\ContentGraph.test.js134031133460052920 0
 69D:\cursor-draft\bose-test\node_modules\@parcel\graph\test\integration134038052973549294 1
 65D:\cursor-draft\bose-test\node_modules\@parcel\graph\src\index.js134031133460232131 0
@@ -3592,6 +3635,7 @@
 72D:\cursor-draft\bose-test\node_modules\@parcel\fs\test\OverlayFS.test.js134031133622741373 0
 57D:\cursor-draft\bose-test\node_modules\@parcel\events\lib134038052973071451 1
 62D:\cursor-draft\bose-test\node_modules\@parcel\fs\src\index.js134031133599124274 0
+67D:\cursor-draft\bose-test\dist\Portable_bluetooth_desk.9165d14c.png134038103264812229 0
 63D:\cursor-draft\bose-test\node_modules\@parcel\fs\src\NodeFS.js134031133622710896 0
 64D:\cursor-draft\bose-test\node_modules\@parcel\fs\lib\browser.js134031133579864839 0
 64D:\cursor-draft\bose-test\node_modules\@parcel\fs\lib\types.d.ts134031133707870996 0
@@ -3667,6 +3711,7 @@
 81D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\parcel\index.js134031133528324424 0
 85D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\parcel\package.json134031133577557295 0
 102D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules134038052972591003 1
+70D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_desk.b2f82ec5.png134038103264812229 0
 122D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules\parcel-config-local134038052972591003 1
 138D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules\parcel-config-local\local-plugin.js134031133528365213 0
 135D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\local-plugin-config-pkg\node_modules\parcel-config-local\package.json134031133577557295 0
@@ -3675,6 +3720,7 @@
 101D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\custom-targets-distdir\package.json134031133577401063 0
 93D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\custom-targets\package.json134031133577401063 0
 103D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\custom-format-infer-type\package.json134031133577401063 0
+58D:\cursor-draft\bose-test\dist\bg-header-tabl.8c68f274.png134038103284533309 0
 102D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext\package.json134031133577401063 0
 86D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\context\package.json134031133577401063 0
 99D:\cursor-draft\bose-test\node_modules\@parcel\core\test\fixtures\config-plugin-not-found\.parcelrc134031133471763330 0
@@ -3698,6 +3744,7 @@
 73D:\cursor-draft\bose-test\node_modules\@parcel\core\src\ReporterRunner.js134031133541817986 0
 64D:\cursor-draft\bose-test\node_modules\@parcel\core\src\requests134038052972070683 1
 73D:\cursor-draft\bose-test\node_modules\@parcel\core\src\RequestTracker.js134031133550000005 0
+69D:\cursor-draft\bose-test\dist\Portable_bluetooth_desk@2.121b26c7.png134038103279855791 0
 76D:\cursor-draft\bose-test\node_modules\@parcel\core\src\SymbolPropagation.js134031133554110680 0
 62D:\cursor-draft\bose-test\node_modules\@lezer\common\README.md134031133397547023 0
 82D:\cursor-draft\bose-test\node_modules\@parcel\core\src\TargetDescriptor.schema.js134031133563978253 0
@@ -3745,6 +3792,7 @@
 75D:\cursor-draft\bose-test\node_modules\@parcel\config-default\test\.babelrc134031133495074114 0
 65D:\cursor-draft\bose-test\node_modules\@parcel\compressor-raw\lib134038052971471409 1
 69D:\cursor-draft\bose-test\node_modules\@parcel\compressor-raw\LICENSE134031133466383938 0
+60D:\cursor-draft\bose-test\dist\bg-footer-tabl@2.5df0edf5.png134038103264812229 0
 74D:\cursor-draft\bose-test\node_modules\@parcel\compressor-raw\package.json134031133466487679 0
 82D:\cursor-draft\bose-test\node_modules\@parcel\compressor-raw\lib\RawCompressor.js134031133466419130 0
 60D:\cursor-draft\bose-test\node_modules\@parcel\codeframe\lib134038052971368998 1
@@ -3789,32 +3837,57 @@
 52D:\cursor-draft\bose-test\node_modules\.bin\sass.ps1134031176397522452 0
 54D:\cursor-draft\bose-test\node_modules\.bin\semver.ps1134031133981344075 0
 70D:\cursor-draft\bose-test\node_modules\.bin\update-browserslist-db.ps1134031133981344075 0
+72D:\cursor-draft\bose-test\dist\audio_sunglasses_square_desk.4fc01800.png134038103264812229 0
 71D:\cursor-draft\bose-test\dist\audio_sunglasses_square_mob.3c477bbb.png134038070410830163 0
+71D:\cursor-draft\bose-test\dist\audio_sunglasses_square_mob.74eb2750.png134038103284533309 0
+73D:\cursor-draft\bose-test\dist\audio_sunglasses_square_mob@2.ec1ce57f.png134038103264812229 0
+74D:\cursor-draft\bose-test\dist\audio_sunglasses_square_tabl@2.de76e98c.png134038103284533309 0
 72D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_desk@2.bf7b97e8.png134038070411407612 0
+71D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_mob@2.020efc72.png134038103264812229 0
 71D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_mob@2.bd24e256.png134038070410741347 0
 70D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_tabl.4d67bc3c.png134038070411183359 0
+72D:\cursor-draft\bose-test\dist\audio_sunglasses_wibe_tabl@2.e9d5b4bb.png134038103284533309 0
 59D:\cursor-draft\bose-test\dist\bg-footer-mob@2.09c96d25.png134038070411307076 0
+58D:\cursor-draft\bose-test\dist\bg-footer-tabl.6cbb6725.png134038103284533309 0
+57D:\cursor-draft\bose-test\dist\bg-header-mob.864a740b.png134038103264812229 0
 59D:\cursor-draft\bose-test\dist\bg-header-mob@2.60568250.png134038070411335562 0
 58D:\cursor-draft\bose-test\dist\bg-header-tabl.1890c543.png134038070411299900 0
 60D:\cursor-draft\bose-test\dist\bg-header-tabl@2.430805b0.png134038070411407612 0
+53D:\cursor-draft\bose-test\dist\bose-test.aea30cbc.css134038103284533309 0
 57D:\cursor-draft\bose-test\dist\bose-test.b10d73a7.css.map134038070411210219 0
+76D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk.023bb9aa.png134038103264812229 0
 76D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk.4c5832ce.png134038070410538588 0
 78D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk@2.3e8cec71.png134038070411028508 0
+78D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk@2.d6d1d116.png134038103279855791 0
 77D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_mob@2.e0cbfe80.png134038070410598600 0
 76D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_tabl.6fd15631.png134038070411028508 0
 58D:\cursor-draft\bose-test\dist\footer-bg-desk.5922dd75.png134038070411353523 0
+58D:\cursor-draft\bose-test\dist\footer-bg-desk.f66a5307.png134038103279855791 0
+60D:\cursor-draft\bose-test\dist\header-bg-desk@2.9dde8b88.png134038103284543319 0
+73D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_mob.8a23a9e1.png134038103284533309 0
+75D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_mob@2.0005790c.png134038103264812229 0
 75D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_mob@2.3bad09b6.png134038070410732448 0
+74D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_tabl.ebc9a05f.png134038103279855791 0
 74D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_tabl.efaffb04.png134038070411083725 0
+76D:\cursor-draft\bose-test\dist\headphones&earbuds324x320_tabl@2.2bca453a.png134038103284533309 0
 75D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_mob@2.ed62ccc9.png134038070410640045 0
+74D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_tabl.4e5235b8.png134038103279855791 0
+76D:\cursor-draft\bose-test\dist\headphones&earbuds672x320_tabl@2.d16fd323.png134038103284533309 0
 70D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_desk.6d6e2c75.png134038070410635041 0
 69D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_mob.06d7cebc.png134038070410830163 0
 71D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_mob@2.202c30e1.png134038070410732448 0
+70D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_tabl.94581d7a.png134038103279855791 0
 70D:\cursor-draft\bose-test\dist\Portable_bluetooth_II_tabl.aad84e63.png134038070411083725 0
+66D:\cursor-draft\bose-test\dist\Portable_bluetooth_mob.4ddcb74f.png134038103284533309 0
 68D:\cursor-draft\bose-test\dist\Portable_bluetooth_mob@2.e230103e.png134038070410609238 0
+64D:\cursor-draft\bose-test\dist\speakers_square_desk.c54424bd.png134038103264812229 0
 63D:\cursor-draft\bose-test\dist\speakers_square_mob.70b95821.png134038070410830163 0
 66D:\cursor-draft\bose-test\dist\speakers_square_tabl@2.34f9fe06.png134038070411105287 0
+64D:\cursor-draft\bose-test\dist\speakers_wibe_desk@2.4860c4aa.png134038103279855791 0
 61D:\cursor-draft\bose-test\dist\speakers_wibe_mob.d41505e5.png134038070410830163 0
+63D:\cursor-draft\bose-test\dist\speakers_wibe_mob@2.82157853.png134038103264812229 0
 62D:\cursor-draft\bose-test\dist\speakers_wibe_tabl.ab6cd341.png134038070411178359 0
 64D:\cursor-draft\bose-test\dist\speakers_wibe_tabl@2.410268a1.png134038070411317517 0
+64D:\cursor-draft\bose-test\dist\speakers_wibe_tabl@2.d710720f.png134038103284533309 0
 43D:\cursor-draft\bose-test\.github\workflows134038086653703667 1
-54D:\cursor-draft\bose-test\.github\workflows\deploy.yml133803761581079568 0
+54D:\cursor-draft\bose-test\.github\workflows\deploy.yml134038101451559634 0
