@@ -1,0 +1,25 @@
+// UTILS
+@use './utils/variables' as *;
+@use './utils/mixin' as *;
+// @use './utils/mixin';
+
+// BASE
+@use './base/base';
+@use './base/reset';
+
+// LAYOUT
+@use './layout/container';
+@use './layout/sections';
+@use './layout/buttons';
+
+// COMPONENTS
+@use './components/header';
+@use './components/burger-menu';
+@use './components/hero';
+@use './components/recommended';
+@use './components/modal';
+@use './components/categories';
+@use './components/why';
+@use './components/footer';
+
+// Import all SCSS modules

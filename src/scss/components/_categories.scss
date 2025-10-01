@@ -1,0 +1,26 @@
+@use '../utils/variables' as *;
+@use '../utils/mixin';
+
+.grid {
+  display: grid;
+  gap: 40px;
+}
+
+.grid-img {
+  display: flex;
+  gap: 24px;
+}
+
+.grid-block {
+  margin: 0 auto;
+}
+
+.title-label {
+  @include mixin.font-lh(16px, 700, 22px);
+  margin: 0;
+  padding-top: 16px;
+
+  @include mixin.minTablet {
+    @include mixin.font-lh(24px, 700, 34px);
+  }
+}

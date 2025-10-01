@@ -1,0 +1,28 @@
+@use '../utils/variables' as *;
+@use '../utils/mixin';
+
+.section {
+  padding: 0 16px 92px 16px;
+
+  @include mixin.minTablet {
+    padding: 0 16px 120px 16px;
+  }
+}
+
+.section-title {
+  @include mixin.short-font(32px, 700, -1.5);
+  color: $text;
+  margin: 0 0 64px;
+
+  &.center {
+    text-align: center;
+  }
+
+  @include mixin.tablet {
+    @include mixin.font-size(40px);
+  }
+
+  @include mixin.desktop {
+    @include mixin.font-size(48px);
+  }
+}

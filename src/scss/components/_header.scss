@@ -1,0 +1,88 @@
+@use '../utils/variables' as *;
+@use '../utils/mixin';
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 36px 20px;
+  margin-bottom: $section-padding;
+  background: url(../img/bg-header-mob.png) center/cover no-repeat;
+  @include mixin.retina {
+    background: url(../img/bg-header-mob@2.png) center/cover no-repeat;
+  }
+  background-color: $bg-footer;
+
+  @include mixin.tablet {
+    padding: 64px 72px;
+    background: url(../img/bg-header-tabl.png) center/cover no-repeat;
+    @include mixin.retina {
+      background: url(../img/bg-header-tabl@2.png) center/cover no-repeat;
+    }
+  }
+
+  @include mixin.desktop {
+    padding: 64px 120px;
+    background: url(../img/header-bg-desk.png) center/cover no-repeat;
+    @include mixin.retina {
+      background: url(../img/header-bg-desk@2.png) center/cover no-repeat;
+    }
+  }
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1920px;
+  height: 64px;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+
+  a {
+    color: var(--muted);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--text);
+    }
+  }
+}
+
+.menu-btn {
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  fill: var(--brand);
+  cursor: none;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  transition: fill 150ms ease;
+
+  @include mixin.minTablet {
+    cursor: pointer;
+  }
+
+  &:hover,
+  &:focus {
+    fill: var(--muted);
+    background-color: transparent;
+  }
+}

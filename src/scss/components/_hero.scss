@@ -1,0 +1,56 @@
+@use '../utils/variables' as *;
+@use '../utils/mixin';
+
+.hero {
+  @include mixin.desktop {
+    position: relative;
+  }
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 32px;
+  // left: 16px;
+  padding: 0 0 0 16px;
+
+  @include mixin.tablet {
+    // bottom: 40px;
+    padding: 0 0 0 72px;
+  }
+
+  @include mixin.desktop {
+    top: -486px;
+    left: 48px;
+    // margin: 16px 0 0 48px;
+  }
+}
+
+.tag {
+  width: 64px;
+  height: 76px;
+  fill: $brand;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  @include mixin.short-font(32px, 700, -1.5px);
+  font-style: italic;
+
+  @include mixin.tablet {
+    @include mixin.font-size(40px);
+  }
+
+  @include mixin.desktop {
+    @include mixin.font-size(48px);
+  }
+
+  span {
+    display: block;
+  }
+}
+
+.hero-actions {
+  margin: 18px 0 0 48px;
+  display: flex;
+  gap: 12px;
+}

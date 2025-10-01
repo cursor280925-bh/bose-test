@@ -1,0 +1,59 @@
+@use '../utils/variables' as *;
+@use '../utils/mixin';
+
+.why-inner {
+  display: grid;
+  // grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  // justify-items: center;
+
+  @include mixin.tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    gap: 24px;
+    
+  }
+
+  @include mixin.desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    gap: 174px;
+    
+  }
+}
+
+// .why-left {
+//   width: 335px;
+// }
+
+// .why-right {
+//   width: 498px;
+// }
+
+.why-list {
+  margin: 0 0 12px 0;
+
+  @include mixin.minTablet {
+    padding-left: 18px;
+  }
+
+  li {
+    margin: 8px 0;
+  }
+}
+
+.why-text {
+  @include mixin.font-lh(16px, 700, 22px);
+  color: $text;
+}
+
+.why-descr {
+  @include mixin.font-lh(16px, 400, 27px);
+  color: $text;
+
+  @include mixin.minTablet {
+    padding: 0 0 0 18px;
+  }
+}

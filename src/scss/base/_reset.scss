@@ -1,0 +1,29 @@
+@use '../utils/variables';
+@use '../utils/mixin';
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: variables.$text;
+
+  @include mixin.mobile {
+    cursor: none;
+  }
+}

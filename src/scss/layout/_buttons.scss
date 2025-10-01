@@ -1,0 +1,81 @@
+@use '../utils/variables' as *;
+@use '../utils/mixin';
+
+.btn {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: $button-padding;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: none;
+
+  @include mixin.minTablet {
+    cursor: pointer;
+  }
+
+  &.primary {
+    background: var(--brand);
+    border-color: var(--brand);
+    color: #fff;
+  }
+
+  &.ghost {
+    background: transparent;
+  }
+
+  &.small {
+    padding: 8px 12px;
+    font-size: 16px;
+    @include mixin.minTablet {
+      transition: border 250ms ease;
+    }
+  }
+
+  @include mixin.minTablet {
+    &.small:hover {
+      border: 1 solid $accent;
+    }
+  }
+
+  &.wide {
+    width: 100%;
+  }
+
+  &.like {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    fill: none;
+    stroke: $brand;
+    stroke-width: 2px;
+    padding: 0;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    transition: all 300ms ease;
+  }
+
+  &.like:focus {
+    fill: $accent;
+    stroke: none;
+  }
+}
+
+.btn-box-recommended {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-res {
+  @include mixin.tablet {
+    width: 32px;
+    height: 32px;
+  }
+
+  @include mixin.desktop {
+    width: 42px;
+    height: 42px;
+  }
+}

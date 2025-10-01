@@ -1,0 +1,27 @@
+@use '../utils/mixin';
+
+.footer {
+  background: url(../img/bg-footer-mob.png) center/cover no-repeat;
+  @include mixin.retina {
+    background: url(../img/bg-footer-mob@2.png) center/cover no-repeat;
+  }
+  height: 460px;
+  padding: 36px 20px;
+  background-color: var(--bg-footer);
+
+  @include mixin.tablet {
+    padding: 64px 72px;
+    background: url(../img/bg-footer-tabl.png) center/cover no-repeat;
+    @include mixin.retina {
+      background: url(../img/bg-footer-tabl@2.png) center/cover no-repeat;
+    }
+  }
+
+  @include mixin.desktop {
+    padding: 64px 120px;
+    background: url(../img/footer-bg-desk.png) center/cover no-repeat;
+    @include mixin.retina {
+      background: url(../img/footer-bg-desk@2.png) center/cover no-repeat;
+    }
+  }
+}

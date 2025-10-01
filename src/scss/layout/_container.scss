@@ -1,0 +1,17 @@
+@use '../utils/variables';
+@use '../utils/mixin';
+
+.container {
+  width: 100%;
+  // max-width: 280px;
+  // padding: 0 variables.$container-padding;
+  margin: 0 auto;
+
+  @include mixin.tablet {
+    max-width: 600px;
+  }
+
+  @include mixin.desktop {
+    max-width: 1020px;
+  }
+}
