@@ -17,4 +17,4 @@ VS Code --> Publish Branch
 
 Close branhc 
 In GitHub: Compare & pull reguest --> "...comment" --> Create oull request --> Merge pull request --> Confirm merge
-In VS Code: git checkout main --> ctrl+shift+G -> open "Source Control" --> Sync Changes.
+In VS Code: git checkout main --> ctrl+shift+G g -> open "Source Control" --> Sync Changes. 
