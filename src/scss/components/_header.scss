@@ -69,7 +69,7 @@
   margin: 0;
   padding: 0;
   background-color: transparent;
-  fill: var(--brand);
+  fill: $brand;
   cursor: none;
   border: none;
   border-radius: 50%;
@@ -82,7 +82,7 @@
 
   &:hover,
   &:focus {
-    fill: var(--muted);
+    fill: $muted;
     background-color: transparent;
   }
 }

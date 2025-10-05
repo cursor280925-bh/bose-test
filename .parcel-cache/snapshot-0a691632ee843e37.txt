@@ -60,7 +60,7 @@
 84D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-transitions.js134031133648326240 0
 33D:\cursor-draft\bose-test\.sassrc133803761581150398 0
 64D:\cursor-draft\bose-test\dist\speakers_square_tabl.23e6ac85.png134041424872914298 0
-30D:\cursor-draft\bose-test\dist134041424873214991 1
+30D:\cursor-draft\bose-test\dist134041429084096224 1
 71D:\cursor-draft\bose-test\node_modules\fast-glob\out\readers\async.d.ts134038689679630556 0
 58D:\cursor-draft\bose-test\node_modules\browserslist\cli.js134031133461980839 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\AF.js134031133483853719 0
@@ -229,7 +229,7 @@
 50D:\cursor-draft\bose-test\node_modules\detect-libc134038052987908209 1
 69D:\cursor-draft\bose-test\node_modules\type-fest\source\value-of.d.ts134031133398008304 0
 76D:\cursor-draft\bose-test\src\img\category\headphones&earbuds324x320_mob.png134035377580000000 0
-58D:\cursor-draft\bose-test\src\scss\components\_header.scss134037286721133220 0
+58D:\cursor-draft\bose-test\src\scss\components\_header.scss134041429000035745 0
 54D:\cursor-draft\bose-test\src\img\header-bg-desk@2.png134035624326632904 0
 65D:\cursor-draft\bose-test\node_modules\@lezer\common\package.json134031133397510905 0
 85D:\cursor-draft\bose-test\node_modules\dom-serializer\node_modules\entities\readme.md134038689317614003 0
@@ -617,7 +617,7 @@
 56D:\cursor-draft\bose-test\node_modules\source-map-js\lib134038052991767928 1
 105D:\cursor-draft\bose-test\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV5\files\file1.txt134038689679660560 0
 47D:\cursor-draft\bose-test\node_modules\entities134038689317649753 1
-53D:\cursor-draft\bose-test\dist\bose-test.b10d73a7.css134041424872711804 0
+53D:\cursor-draft\bose-test\dist\bose-test.b10d73a7.css134041429083940019 0
 84D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\permissions-api.js134031133797693968 0
 62D:\cursor-draft\bose-test\node_modules\sass\types\options.d.ts134031176397341208 0
 108D:\cursor-draft\bose-test\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV1\files\embed\embed2134038689679720558 1
@@ -4300,7 +4300,7 @@
 58D:\cursor-draft\bose-test\dist\bg-header-tabl.1890c543.png134041424873067240 0
 60D:\cursor-draft\bose-test\dist\bg-header-tabl@2.430805b0.png134041424873204179 0
 52D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js134041424872434900 0
-57D:\cursor-draft\bose-test\dist\bose-test.b10d73a7.css.map134041424873067240 0
+57D:\cursor-draft\bose-test\dist\bose-test.b10d73a7.css.map134041429084096224 0
 76D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk.4c5832ce.png134041424872521433 0
 78D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk@2.3e8cec71.png134041424872914298 0
 77D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_mob@2.e0cbfe80.png134041424872681840 0

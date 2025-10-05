@@ -261,9 +261,7 @@ a {
 }
 
 .menu-btn {
-  min-width: 40px;
-  min-height: 40px;
-  fill: var(--brand);
+  fill: #292929;
   cursor: none;
   background-color: #0000;
   border: none;
@@ -271,6 +269,8 @@ a {
   outline: none;
   justify-content: center;
   align-items: center;
+  min-width: 40px;
+  min-height: 40px;
   margin: 0;
   padding: 0;
   transition: fill .15s;
@@ -284,7 +284,7 @@ a {
 }
 
 .menu-btn:hover, .menu-btn:focus {
-  fill: var(--muted);
+  fill: #6b7280;
   background-color: #0000;
 }
 
