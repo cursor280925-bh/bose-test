@@ -18,3 +18,11 @@ VS Code --> Publish Branch
 Close branhc 
 In GitHub: Compare & pull reguest --> "...comment" --> Create pull request --> Merge pull request --> Confirm merge
 In VS Code: git checkout main --> ctrl+shift+G g -> open "Source Control" --> Sync Changes. 
+
+git config --global user.name "name from github"
+git config --global user.email "email from git hub"
+
+проверка
+
+git config user.name
+git config user.email
