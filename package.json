@@ -1,15 +1,23 @@
 {
-  "name": "test",
+  "name": "bose-test",
   "version": "1.0.0",
+  "homepage": "https://github.com/cursor280925-bh/bose-test.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./",
-    "start": "parcel src/index.html"
+    "build": "parcel build src/*.html --public-url /bose-test/",
+    "start": "parcel src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cursor280925-bh/bose-test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cursor280925-bh/bose-test.git"
+  },
   "description": "",
   "devDependencies": {
     "@parcel/transformer-inline-string": "^2.16.0",
@@ -18,5 +26,6 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^2.0.1",
     "sass": "^1.93.1"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
