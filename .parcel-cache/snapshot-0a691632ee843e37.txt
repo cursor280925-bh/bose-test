@@ -60,7 +60,7 @@
 84D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-transitions.js134031133648326240 0
 33D:\cursor-draft\bose-test\.sassrc133803761581150398 0
 64D:\cursor-draft\bose-test\dist\speakers_square_tabl.23e6ac85.png134041424872914298 0
-30D:\cursor-draft\bose-test\dist134041429084096224 1
+30D:\cursor-draft\bose-test\dist134041431698365641 1
 71D:\cursor-draft\bose-test\node_modules\fast-glob\out\readers\async.d.ts134038689679630556 0
 58D:\cursor-draft\bose-test\node_modules\browserslist\cli.js134031133461980839 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\AF.js134031133483853719 0
@@ -238,7 +238,7 @@
 88D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\features\css-text-align-last.js134031133648326240 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\OM.js134031133797537718 0
 64D:\cursor-draft\bose-test\node_modules\semver\functions\minor.js134031133453342081 0
-56D:\cursor-draft\bose-test\src\scss\components\_hero.scss134035638709490796 0
+56D:\cursor-draft\bose-test\src\scss\components\_hero.scss134041429573164679 0
 57D:\cursor-draft\bose-test\src\scss\components\_modal.scss134037313227072374 0
 57D:\cursor-draft\bose-test\node_modules\chrome-trace-event134038052987699411 1
 57D:\cursor-draft\bose-test\node_modules\picomatch\index.js134031133397005254 0
@@ -248,7 +248,7 @@
 56D:\cursor-draft\bose-test\node_modules\sass\types\logger134038052991271072 1
 50D:\cursor-draft\bose-test\src\scss\base\_base.scss134035282962076095 0
 74D:\cursor-draft\bose-test\node_modules\type-fest\source\tsconfig-json.d.ts134031133397987961 0
-47D:\cursor-draft\bose-test\src\js\burger-menu.js134031193702667513 0
+47D:\cursor-draft\bose-test\src\js\burger-menu.js134041431697239082 0
 70D:\cursor-draft\bose-test\node_modules\caniuse-lite\data\regions\HN.js134031133788375799 0
 63D:\cursor-draft\bose-test\node_modules\dom-serializer\README.md134038689317569059 0
 118D:\cursor-draft\bose-test\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV2\files\embed\embed2\file3.txt134038689679720558 0
@@ -3441,7 +3441,7 @@
 90D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_field_loose_base.js134031133457184487 0
 87D:\cursor-draft\bose-test\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js134031133461219891 0
 89D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_field_loose_key.js134031133457221785 0
-56D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js.map134041424873067240 0
+56D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js.map134041431698365641 0
 84D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_method_get.js134031133457351017 0
 73D:\cursor-draft\bose-test\node_modules\@parcel\core\src\serializerCore.js134031133554080511 0
 84D:\cursor-draft\bose-test\node_modules\@swc\helpers\esm\_class_private_method_set.js134031133457431930 0
@@ -4299,7 +4299,7 @@
 59D:\cursor-draft\bose-test\dist\bg-header-mob@2.60568250.png134041424873067240 0
 58D:\cursor-draft\bose-test\dist\bg-header-tabl.1890c543.png134041424873067240 0
 60D:\cursor-draft\bose-test\dist\bg-header-tabl@2.430805b0.png134041424873204179 0
-52D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js134041424872434900 0
+52D:\cursor-draft\bose-test\dist\bose-test.31b563d9.js134041431698319226 0
 57D:\cursor-draft\bose-test\dist\bose-test.b10d73a7.css.map134041429084096224 0
 76D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk.4c5832ce.png134041424872521433 0
 78D:\cursor-draft\bose-test\dist\Bose_portable_Smart_speaker_desk@2.3e8cec71.png134041424872914298 0
