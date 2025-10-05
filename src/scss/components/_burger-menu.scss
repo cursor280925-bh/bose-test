@@ -38,7 +38,7 @@
   right: 0;
   width: 100vw;
   height: 100vh;
-  background: var(--bg);
+  background: $bg;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
   overflow-y: auto;
@@ -56,7 +56,7 @@
   padding: 8px;
   border: none;
   background-color: transparent;
-  fill: var(--brand);
+  fill: $brand;
   cursor: none;
   border-radius: 8px;
   transition: fill 150ms ease;
@@ -66,7 +66,7 @@
   }
 
   &:hover {
-    fill: var(--muted);
+    fill: $muted;
   }
 }
 
@@ -109,13 +109,13 @@
   font-weight: 700;
   letter-spacing: clamp(1px, 0.2vw, 2px);
   text-transform: uppercase;
-  color: var(--brand);
+  color: $brand;
   text-decoration: none;
   display: block;
   padding: clamp(4px, 0.5vw, 8px) 0;
   transition: color 150ms ease;
 
   &:hover {
-    color: var(--muted);
+    color: $muted;
   }
 }
