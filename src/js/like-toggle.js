@@ -4,6 +4,7 @@
 //   });
 // });
 
+// цей варіант подобається
 document.querySelectorAll('.icon-like').forEach((like, index) => {
   const key = `product-${index}-liked`;
 
