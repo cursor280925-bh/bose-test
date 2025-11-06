@@ -20,8 +20,22 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
     `).join(""),t.addEventListener("click",t=>{let a=parseInt(t.target.dataset.productId);if(t.target.classList.contains("minus")){let t=e.find(t=>t.productId===a);t&&t.quantity>1?this.updateCartItemQuantity(a,t.quantity-1):this.removeFromCart(a)}else if(t.target.classList.contains("plus")){let t=e.find(t=>t.productId===a);t&&this.updateCartItemQuantity(a,t.quantity+1)}else t.target.classList.contains("remove-btn")&&this.removeFromCart(a)});let a=document.querySelector(".cart-total");a&&(a.textContent=`$${this.getCartTotal().toFixed(2)}`)}openCart(){let t=document.querySelector(".cart-modal");t||(t=this.createCartModal(),document.body.appendChild(t)),this.renderCartItems(),t.style.display="flex",document.body.style.overflow="hidden"}closeCart(){let t=document.querySelector(".cart-modal");t&&(t.style.display="none",document.body.style.overflow="auto")}createCartModal(){let t=document.createElement("div");return t.className="cart-modal",t.innerHTML=`
       <div class="cart-modal-content">
         <div class="cart-header">
-          <h2>\u{41A}\u{43E}\u{440}\u{437}\u{438}\u{43D}\u{430}</h2>
-          <button class="close-cart">&times;</button>
+          <h2 class="cart-title">\u{41A}\u{43E}\u{440}\u{437}\u{438}\u{43D}\u{430}</h2>
+          <button class="close-cart">
+          <svg
+          class="close-icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.1943 6.41714C19.6393 5.97216 19.6393 5.2507 19.1943 4.80571C18.7493 4.36073 18.0278 4.36073 17.5829 4.80571L12 10.3886L6.41714 4.80572C5.97216 4.36073 5.2507 4.36073 4.80571 4.80571C4.36073 5.2507 4.36073 5.97216 4.80571 6.41714L10.3886 12L4.80572 17.5829C4.36073 18.0278 4.36073 18.7493 4.80571 19.1943C5.2507 19.6393 5.97216 19.6393 6.41714 19.1943L12 13.6114L17.5829 19.1943C18.0278 19.6393 18.7493 19.6393 19.1943 19.1943C19.6393 18.7493 19.6393 18.0278 19.1943 17.5829L13.6114 12L19.1943 6.41714Z"
+            fill="#292929"
+          />
+        </svg>
+          </button>
         </div>
         <div class="cart-items"></div>
         <div class="cart-footer">
@@ -192,7 +206,7 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
         align-items: center;
         justify-content: space-between;
         padding: 16px 20px;
-        border-bottom: 1px solid #eaeaea;
+        border-bottom: 1px solid #e5e7eb;
       }
       .admin-header h2 {
         margin: 0;
@@ -206,7 +220,7 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
         font-size: 24px;
         line-height: 1;
         cursor: pointer;
-        color: #888;
+        color: #292929;
       }
       .close-admin:hover { color: #222; }
       .admin-body { padding: 16px 20px; }
@@ -317,4 +331,4 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
           </div>
         </div>
       `}).join("")}},document.addEventListener("DOMContentLoaded",()=>{e.forEach(t=>t.addEventListener("click",o)),a.forEach(t=>t.addEventListener("click",u));let t=document.querySelector(".modal-form");t&&t.addEventListener("submit",e=>{e.preventDefault(),u(),alert("Спасибо! Мы свяжемся с вами."),t.reset()}),i.forEach(t=>t.addEventListener("click",s)),n.forEach(t=>t.addEventListener("click",d)),document.addEventListener("keydown",t=>{"Escape"===t.key&&(u(),d())})});
-//# sourceMappingURL=bose-test.b71d0dce.js.map
+//# sourceMappingURL=bose-test.731ad42a.js.map
