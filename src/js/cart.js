@@ -13,7 +13,7 @@ export class CartManager {
 
   bindEvents() {
     // Обработчики для кнопок "В корзину"
-    document.addEventListener('click', (e) => {
+    document.addEventListener('click', e => {
       if (e.target.textContent === 'В корзину' || e.target.textContent.trim() === 'В корзину') {
         e.preventDefault();
         const card = e.target.closest('.card');
@@ -24,7 +24,7 @@ export class CartManager {
     });
 
     // Обработчики для кнопок "Купить" (добавляем в корзину и открываем корзину)
-    document.addEventListener('click', (e) => {
+    document.addEventListener('click', e => {
       if (e.target.textContent === 'Купить' || e.target.textContent.trim() === 'Купить') {
         e.preventDefault();
         const card = e.target.closest('.card');
@@ -36,7 +36,7 @@ export class CartManager {
     });
 
     // Обработчик для кнопки корзины в header
-    document.addEventListener('click', (e) => {
+    document.addEventListener('click', e => {
       if (e.target.closest('[data-open-cart]')) {
         e.preventDefault();
         this.openCart();
@@ -47,14 +47,14 @@ export class CartManager {
   addToCartFromCard(card) {
     const title = card.querySelector('.card-title');
     const price = card.querySelector('.card-price');
-    
+
     if (title && price) {
       const productName = title.textContent.trim();
       const productPrice = parseFloat(price.textContent.replace(/[^0-9.]/g, ''));
-      
+
       // Находим товар в базе данных по названию
       const product = db.getProducts().find(p => p.name === productName);
-      
+
       if (product) {
         const success = db.addToCart(product.id, 1);
         if (success) {
@@ -100,7 +100,7 @@ export class CartManager {
   updateCartDisplay() {
     const cart = this.getCart();
     const total = this.getCartTotal();
-    
+
     // Обновляем счетчик товаров в корзине (если есть)
     const cartCounter = document.querySelector('.cart-counter');
     if (cartCounter) {
@@ -121,13 +121,15 @@ export class CartManager {
     if (!cartItemsContainer) return;
 
     const cart = this.getCart();
-    
+
     if (cart.length === 0) {
       cartItemsContainer.innerHTML = '<p class="empty-cart">Корзина пуста</p>';
       return;
     }
 
-    cartItemsContainer.innerHTML = cart.map(item => `
+    cartItemsContainer.innerHTML = cart
+      .map(
+        item => `
       <div class="cart-item" data-product-id="${item.productId}">
         <div class="cart-item-image">
           <img src="${item.product.image}" alt="${item.product.name}" />
@@ -146,12 +148,14 @@ export class CartManager {
           <span class="price">$${item.totalPrice.toFixed(2)}</span>
         </div>
       </div>
-    `).join('');
+    `
+      )
+      .join('');
 
     // Добавляем обработчики для кнопок управления количеством
-    cartItemsContainer.addEventListener('click', (e) => {
+    cartItemsContainer.addEventListener('click', e => {
       const productId = parseInt(e.target.dataset.productId);
-      
+
       if (e.target.classList.contains('minus')) {
         const item = cart.find(item => item.productId === productId);
         if (item && item.quantity > 1) {
@@ -203,8 +207,22 @@ export class CartManager {
     modal.innerHTML = `
       <div class="cart-modal-content">
         <div class="cart-header">
-          <h2>Корзина</h2>
-          <button class="close-cart">&times;</button>
+          <h2 class="cart-title">Корзина</h2>
+          <button class="close-cart">
+          <svg
+          class="close-icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.1943 6.41714C19.6393 5.97216 19.6393 5.2507 19.1943 4.80571C18.7493 4.36073 18.0278 4.36073 17.5829 4.80571L12 10.3886L6.41714 4.80572C5.97216 4.36073 5.2507 4.36073 4.80571 4.80571C4.36073 5.2507 4.36073 5.97216 4.80571 6.41714L10.3886 12L4.80572 17.5829C4.36073 18.0278 4.36073 18.7493 4.80571 19.1943C5.2507 19.6393 5.97216 19.6393 6.41714 19.1943L12 13.6114L17.5829 19.1943C18.0278 19.6393 18.7493 19.6393 19.1943 19.1943C19.6393 18.7493 19.6393 18.0278 19.1943 17.5829L13.6114 12L19.1943 6.41714Z"
+            fill="#292929"
+          />
+        </svg>
+          </button>
         </div>
         <div class="cart-items"></div>
         <div class="cart-footer">
@@ -220,9 +238,9 @@ export class CartManager {
     // Добавляем обработчики событий
     modal.querySelector('.close-cart').addEventListener('click', () => this.closeCart());
     modal.querySelector('.checkout-btn').addEventListener('click', () => this.openCheckout());
-    
+
     // Закрытие по клику вне модального окна
-    modal.addEventListener('click', (e) => {
+    modal.addEventListener('click', e => {
       if (e.target === modal) {
         this.closeCart();
       }
@@ -310,8 +328,8 @@ export class CartManager {
 
     // Добавляем обработчики событий
     modal.querySelector('.close-checkout').addEventListener('click', () => this.closeCheckout());
-    
-    modal.addEventListener('click', (e) => {
+
+    modal.addEventListener('click', e => {
       if (e.target === modal) {
         this.closeCheckout();
       }
@@ -319,7 +337,7 @@ export class CartManager {
 
     // Обработчик формы заказа
     const form = modal.querySelector('.checkout-form');
-    form.addEventListener('submit', (e) => this.handleOrderSubmit(e));
+    form.addEventListener('submit', e => this.handleOrderSubmit(e));
 
     return modal;
   }
@@ -327,10 +345,12 @@ export class CartManager {
   renderCheckoutForm() {
     const cart = this.getCart();
     const total = this.getCartTotal();
-    
+
     // Рендерим товары в заказе
     const checkoutItems = document.querySelector('.checkout-items');
-    checkoutItems.innerHTML = cart.map(item => `
+    checkoutItems.innerHTML = cart
+      .map(
+        item => `
       <div class="checkout-item">
         <img src="${item.product.image}" alt="${item.product.name}" />
         <div class="checkout-item-info">
@@ -339,12 +359,16 @@ export class CartManager {
           <p>Цена: $${item.totalPrice.toFixed(2)}</p>
         </div>
       </div>
-    `).join('');
+    `
+      )
+      .join('');
 
     // Рендерим способы доставки
     const deliveryMethods = document.querySelector('.delivery-methods');
     const deliveryOptions = db.getDeliveryMethods();
-    deliveryMethods.innerHTML = deliveryOptions.map(method => `
+    deliveryMethods.innerHTML = deliveryOptions
+      .map(
+        method => `
       <label class="delivery-option">
         <input type="radio" name="delivery" value="${method.id}" required>
         <span class="option-info">
@@ -352,19 +376,25 @@ export class CartManager {
           <span class="option-price">$${method.price}</span>
         </span>
       </label>
-    `).join('');
+    `
+      )
+      .join('');
 
     // Рендерим способы оплаты
     const paymentMethods = document.querySelector('.payment-methods');
     const paymentOptions = db.getPaymentMethods();
-    paymentMethods.innerHTML = paymentOptions.map(method => `
+    paymentMethods.innerHTML = paymentOptions
+      .map(
+        method => `
       <label class="payment-option">
         <input type="radio" name="payment" value="${method.id}" required>
         <span class="option-info">
           <span class="option-name">${method.icon} ${method.name}</span>
         </span>
       </label>
-    `).join('');
+    `
+      )
+      .join('');
 
     // Обновляем итоговую сумму
     document.querySelector('.items-total').textContent = `$${total.toFixed(2)}`;
@@ -376,9 +406,10 @@ export class CartManager {
 
   updateCheckoutTotal() {
     const selectedDelivery = document.querySelector('input[name="delivery"]:checked');
-    const deliveryPrice = selectedDelivery ? 
-      db.getDeliveryMethods().find(m => m.id === selectedDelivery.value)?.price || 0 : 0;
-    
+    const deliveryPrice = selectedDelivery
+      ? db.getDeliveryMethods().find(m => m.id === selectedDelivery.value)?.price || 0
+      : 0;
+
     const itemsTotal = this.getCartTotal();
     const finalTotal = itemsTotal + deliveryPrice;
 
@@ -395,49 +426,49 @@ export class CartManager {
 
   handleOrderSubmit(e) {
     e.preventDefault();
-    
+
     const form = e.target;
     const formData = new FormData(form);
-    
+
     // Собираем данные формы
     const customerInfo = {
       name: formData.get('name'),
       phone: formData.get('phone'),
-      email: formData.get('email')
+      email: formData.get('email'),
     };
-    
+
     const delivery = formData.get('delivery');
     const payment = formData.get('payment');
-    
+
     // Валидация
     if (!customerInfo.name || !customerInfo.phone) {
       this.showNotification('Пожалуйста, заполните обязательные поля');
       return;
     }
-    
+
     if (!delivery) {
       this.showNotification('Пожалуйста, выберите способ доставки');
       return;
     }
-    
+
     if (!payment) {
       this.showNotification('Пожалуйста, выберите способ оплаты');
       return;
     }
-    
+
     // Создаем заказ
     const orderData = {
       customerInfo,
       delivery,
-      payment
+      payment,
     };
-    
+
     try {
       const order = db.createOrder(orderData);
       this.showNotification(`Заказ #${order.id} успешно оформлен!`);
       this.closeCheckout();
       this.updateCartDisplay();
-      
+
       // Показываем информацию о заказе
       this.showOrderConfirmation(order);
     } catch (error) {
@@ -449,7 +480,7 @@ export class CartManager {
   showOrderConfirmation(order) {
     const deliveryMethod = db.getDeliveryMethods().find(m => m.id === order.delivery);
     const paymentMethod = db.getPaymentMethods().find(m => m.id === order.payment);
-    
+
     const confirmationModal = document.createElement('div');
     confirmationModal.className = 'confirmation-modal';
     confirmationModal.innerHTML = `
@@ -487,7 +518,7 @@ export class CartManager {
         </div>
       </div>
     `;
-    
+
     document.body.appendChild(confirmationModal);
     confirmationModal.style.cssText = `
       position: fixed;
@@ -501,15 +532,15 @@ export class CartManager {
       align-items: center;
       z-index: 1002;
     `;
-    
+
     // Обработчики закрытия
     const closeBtn = confirmationModal.querySelector('.close-confirmation');
     closeBtn.addEventListener('click', () => {
       confirmationModal.remove();
       style.remove();
     });
-    
-    confirmationModal.addEventListener('click', (e) => {
+
+    confirmationModal.addEventListener('click', e => {
       if (e.target === confirmationModal) {
         confirmationModal.remove();
         style.remove();
@@ -519,11 +550,11 @@ export class CartManager {
 
   getOrderStatusText(status) {
     const statusMap = {
-      'pending': 'Ожидает обработки',
-      'processing': 'В обработке',
-      'shipped': 'Отправлен',
-      'delivered': 'Доставлен',
-      'cancelled': 'Отменен'
+      pending: 'Ожидает обработки',
+      processing: 'В обработке',
+      shipped: 'Отправлен',
+      delivered: 'Доставлен',
+      cancelled: 'Отменен',
     };
     return statusMap[status] || status;
   }
