@@ -38,6 +38,94 @@ export class AdminPanel {
   openAdminPanel() {
     const orders = adminService.getOrders();
 
+    // Вставляем стили для модалки админ-панели (удаляются при закрытии)
+    const style = document.createElement('style');
+    style.textContent = `
+      .admin-modal { }
+      .admin-modal-content {
+        background: #ffffff;
+        width: 90%;
+        max-width: 920px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        max-height: 85vh;
+        overflow: auto;
+      }
+      .admin-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 20px;
+        border-bottom: 1px solid #eaeaea;
+      }
+      .admin-header h2 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .close-admin {
+        appearance: none;
+        background: transparent;
+        border: none;
+        font-size: 24px;
+        line-height: 1;
+        cursor: pointer;
+        color: #888;
+      }
+      .close-admin:hover { color: #222; }
+      .admin-body { padding: 16px 20px; }
+
+      .order-item {
+        background: #fafafa;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 12px;
+        margin-bottom: 12px;
+      }
+      .order-header {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+      }
+      .order-id { font-weight: 600; }
+      .order-date { color: #666; font-size: 13px; }
+      .order-status {
+        padding: 2px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        background: #6c757d; /* базовый цвет, если не задан класс статуса */
+      }
+      .customer-info { margin-bottom: 8px; }
+      .order-items { margin: 8px 0; }
+      .order-item-product {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 0;
+        border-bottom: 1px dashed #e8e8e8;
+      }
+      .order-item-product:last-child { border-bottom: 0; }
+      .delivery-payment {
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 8px;
+      }
+      .order-total {
+        margin-top: 10px;
+        text-align: right;
+        font-weight: 700;
+        font-size: 16px;
+      }
+    `;
+    document.head.appendChild(style);
+
     const adminModal = document.createElement('div');
     adminModal.className = 'admin-modal';
     adminModal.innerHTML = `
@@ -71,13 +159,13 @@ export class AdminPanel {
     const closeBtn = adminModal.querySelector('.close-admin');
     closeBtn.addEventListener('click', () => {
       adminModal.remove();
-      // style.remove(); // Удалено
+      style.remove();
     });
 
     adminModal.addEventListener('click', e => {
       if (e.target === adminModal) {
         adminModal.remove();
-        // style.remove(); // Удалено
+        style.remove();
       }
     });
   }
