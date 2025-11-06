@@ -103,3 +103,12 @@
     }
   }
 }
+
+.checkout-btn {
+  @include mixin.short-font(18px, 700, 0.01em);
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background: $bg;
+}

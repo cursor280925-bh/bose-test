@@ -1,3 +1,5 @@
+@use '../utils/variables' as *;
+
 // Стили для корзины
 .cart-modal {
   position: fixed;
@@ -13,7 +15,7 @@
 }
 
 .cart-modal-content {
-  background: white;
+  background: $bg;
   border-radius: 10px;
   width: 90%;
   max-width: 600px;
@@ -27,12 +29,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid $border;
 
-  h2 {
+  .cart-title {
     margin: 0;
     font-size: 24px;
-    color: #333;
+    color: $text;
   }
 
   .close-cart {
@@ -56,7 +58,7 @@
 
 .empty-cart {
   text-align: center;
-  color: #666;
+  color: $muted;
   font-size: 18px;
   padding: 40px 20px;
 }
@@ -159,8 +161,8 @@
 
 .cart-footer {
   padding: 20px;
-  border-top: 1px solid #eee;
-  background: #f9f9f9;
+  border-top: 1px solid $border;
+  background: $bg-modal;
   border-radius: 0 0 10px 10px;
 }
 
@@ -173,30 +175,13 @@
   .total-label {
     font-size: 18px;
     font-weight: 600;
-    color: #333;
+    color: $brand;
   }
 
   .cart-total {
     font-size: 24px;
     font-weight: 700;
-    color: #2c5aa0;
-  }
-}
-
-.checkout-btn {
-  width: 100%;
-  padding: 15px;
-  background: #2c5aa0;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.3s;
-
-  &:hover {
-    background: #1e3f73;
+    color: $accent;
   }
 }
 
@@ -215,7 +200,7 @@
 }
 
 .checkout-modal-content {
-  background: white;
+  background: $bg;
   border-radius: 10px;
   width: 90%;
   max-width: 800px;

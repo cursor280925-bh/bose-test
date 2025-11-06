@@ -56,7 +56,7 @@ export class AdminPanel {
         align-items: center;
         justify-content: space-between;
         padding: 16px 20px;
-        border-bottom: 1px solid #eaeaea;
+        border-bottom: 1px solid #e5e7eb;
       }
       .admin-header h2 {
         margin: 0;
@@ -70,7 +70,7 @@ export class AdminPanel {
         font-size: 24px;
         line-height: 1;
         cursor: pointer;
-        color: #888;
+        color: #292929;
       }
       .close-admin:hover { color: #222; }
       .admin-body { padding: 16px 20px; }
