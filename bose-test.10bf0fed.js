@@ -1,4 +1,4 @@
-const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open-modal]"),a=document.querySelectorAll("[data-close-modal], .modal-backdrop, .modal-close");function o(){if(!t)return;t.setAttribute("aria-hidden","false"),document.body.style.overflow="hidden";let e=t.querySelector("input");e&&setTimeout(()=>e.focus(),50)}function u(){t&&(t.setAttribute("aria-hidden","true"),document.body.style.overflow="")}const r=document.getElementById("burger-menu"),i=document.querySelectorAll("[data-open-burger]"),n=document.querySelectorAll("[data-close-burger]");function s(){r&&r.setAttribute("aria-hidden","false")}function d(){r&&r.setAttribute("aria-hidden","true")}document.querySelectorAll(".icon-like").forEach((t,e)=>{let a=`product-${e}-liked`;"1"===localStorage.getItem(a)&&t.classList.add("active"),t.addEventListener("click",()=>{t.classList.toggle("active"),t.classList.contains("active")?localStorage.setItem(a,"1"):localStorage.removeItem(a)})});const c=new class{constructor(){this.products=[{id:1,name:"Bose portable Smart speaker",category:"Smart home",price:399,image:"img/products/Bose_portable_Smart_speaker_desk.png",description:"Портативная умная колонка с голосовым управлением"},{id:2,name:"SoundLink Flex Bluetooth speaker",category:"Portable bluetooth",price:149,image:"img/products/Portable_bluetooth_desk.png",description:"Портативная Bluetooth колонка с водонепроницаемостью"},{id:3,name:"SoundLink Color Bluetooth speaker II",category:"Portable bluetooth",price:129,image:"img/products/Portable_bluetooth_II_desk.png",description:"Цветная портативная Bluetooth колонка"}],this.cart=[],this.orders=[],this.paymentMethods=[{id:"card",name:"Банковская карта",icon:"\uD83D\uDCB3"},{id:"cash",name:"Наличные при получении",icon:"\uD83D\uDCB5"},{id:"online",name:"Онлайн оплата",icon:"\uD83C\uDF10"}],this.deliveryMethods=[{id:"ukrpost",name:"Укрпошта",price:50,icon:"\uD83D\uDCEE"},{id:"novapost",name:"Нова пошта",price:80,icon:"\uD83D\uDE9A"}]}getProducts(){return this.products}getProductById(t){return this.products.find(e=>e.id===t)}addToCart(t,e=1){if(!this.getProductById(t))return!1;let a=this.cart.find(e=>e.productId===t);return a?a.quantity+=e:this.cart.push({productId:t,quantity:e,addedAt:new Date}),!0}removeFromCart(t){this.cart=this.cart.filter(e=>e.productId!==t)}updateCartItemQuantity(t,e){let a=this.cart.find(e=>e.productId===t);a&&(e<=0?this.removeFromCart(t):a.quantity=e)}getCart(){return this.cart.map(t=>{let e=this.getProductById(t.productId);return{...t,product:e,totalPrice:e.price*t.quantity}})}getCartTotal(){return this.cart.reduce((t,e)=>t+this.getProductById(e.productId).price*e.quantity,0)}clearCart(){this.cart=[]}createOrder(t){let e={id:Date.now(),items:[...this.cart],total:this.getCartTotal(),delivery:t.delivery,payment:t.payment,customerInfo:t.customerInfo,status:"pending",createdAt:new Date};return this.orders.push(e),this.clearCart(),e}getOrders(){return this.orders}getPaymentMethods(){return this.paymentMethods}getDeliveryMethods(){return this.deliveryMethods}};new class{constructor(){this.cart=[],this.init()}init(){this.bindEvents(),this.updateCartDisplay()}bindEvents(){document.addEventListener("click",t=>{if("В корзину"===t.target.textContent||"В корзину"===t.target.textContent.trim()){t.preventDefault();let e=t.target.closest(".card");e&&this.addToCartFromCard(e)}}),document.addEventListener("click",t=>{if("Купить"===t.target.textContent||"Купить"===t.target.textContent.trim()){t.preventDefault();let e=t.target.closest(".card");e&&(this.addToCartFromCard(e),this.openCart())}}),document.addEventListener("click",t=>{t.target.closest("[data-open-cart]")&&(t.preventDefault(),this.openCart())})}addToCartFromCard(t){let e=t.querySelector(".card-title"),a=t.querySelector(".card-price");if(e&&a){let t=e.textContent.trim();parseFloat(a.textContent.replace(/[^0-9.]/g,""));let o=c.getProducts().find(e=>e.name===t);o&&c.addToCart(o.id,1)&&(this.showNotification("Товар добавлен в корзину!"),this.updateCartDisplay())}}addToCart(t,e=1){return!!c.addToCart(t,e)&&(this.updateCartDisplay(),!0)}removeFromCart(t){c.removeFromCart(t),this.updateCartDisplay()}updateCartItemQuantity(t,e){c.updateCartItemQuantity(t,e),this.updateCartDisplay()}getCart(){return c.getCart()}getCartTotal(){return c.getCartTotal()}clearCart(){c.clearCart(),this.updateCartDisplay()}updateCartDisplay(){let t=this.getCart();this.getCartTotal();let e=document.querySelector(".cart-counter");if(e){let a=t.reduce((t,e)=>t+e.quantity,0);e.textContent=a,e.style.display=a>0?"block":"none"}let a=document.querySelector(".cart-modal");a&&"none"!==a.style.display&&this.renderCartItems()}renderCartItems(){let t=document.querySelector(".cart-items");if(!t)return;let e=this.getCart();if(0===e.length){t.innerHTML='<p class="empty-cart">Корзина пуста</p>';return}t.innerHTML=e.map(t=>`
+const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open-modal]"),a=document.querySelectorAll("[data-close-modal], .modal-backdrop, .modal-close");function o(){if(!t)return;t.setAttribute("aria-hidden","false"),document.body.style.overflow="hidden";let e=t.querySelector("input");e&&setTimeout(()=>e.focus(),50)}function r(){t&&(t.setAttribute("aria-hidden","true"),document.body.style.overflow="")}const u=document.getElementById("burger-menu"),i=document.querySelectorAll("[data-open-burger]"),n=document.querySelectorAll("[data-close-burger]");function s(){u&&u.setAttribute("aria-hidden","false")}function d(){u&&u.setAttribute("aria-hidden","true")}document.querySelectorAll(".icon-like").forEach((t,e)=>{let a=`product-${e}-liked`;"1"===localStorage.getItem(a)&&t.classList.add("active"),t.addEventListener("click",()=>{t.classList.toggle("active"),t.classList.contains("active")?localStorage.setItem(a,"1"):localStorage.removeItem(a)})});const c=new class{constructor(){this.products=[{id:1,name:"Bose portable Smart speaker",category:"Smart home",price:399,image:"img/products/Bose_portable_Smart_speaker_desk.png",description:"Портативная умная колонка с голосовым управлением"},{id:2,name:"SoundLink Flex Bluetooth speaker",category:"Portable bluetooth",price:149,image:"img/products/Portable_bluetooth_desk.png",description:"Портативная Bluetooth колонка с водонепроницаемостью"},{id:3,name:"SoundLink Color Bluetooth speaker II",category:"Portable bluetooth",price:129,image:"img/products/Portable_bluetooth_II_desk.png",description:"Цветная портативная Bluetooth колонка"}],this.cart=[],this.orders=[],this.paymentMethods=[{id:"card",name:"Банковская карта",icon:"\uD83D\uDCB3"},{id:"cash",name:"Наличные при получении",icon:"\uD83D\uDCB5"},{id:"online",name:"Онлайн оплата",icon:"\uD83C\uDF10"}],this.deliveryMethods=[{id:"ukrpost",name:"Укрпошта",price:50,icon:"\uD83D\uDCEE"},{id:"novapost",name:"Нова пошта",price:80,icon:"\uD83D\uDE9A"}]}getProducts(){return this.products}getProductById(t){return this.products.find(e=>e.id===t)}addToCart(t,e=1){if(!this.getProductById(t))return!1;let a=this.cart.find(e=>e.productId===t);return a?a.quantity+=e:this.cart.push({productId:t,quantity:e,addedAt:new Date}),!0}removeFromCart(t){this.cart=this.cart.filter(e=>e.productId!==t)}updateCartItemQuantity(t,e){let a=this.cart.find(e=>e.productId===t);a&&(e<=0?this.removeFromCart(t):a.quantity=e)}getCart(){return this.cart.map(t=>{let e=this.getProductById(t.productId);return{...t,product:e,totalPrice:e.price*t.quantity}})}getCartTotal(){return this.cart.reduce((t,e)=>t+this.getProductById(e.productId).price*e.quantity,0)}clearCart(){this.cart=[]}createOrder(t){let e={id:Date.now(),items:[...this.cart],total:this.getCartTotal(),delivery:t.delivery,payment:t.payment,customerInfo:t.customerInfo,status:"pending",createdAt:new Date};return this.orders.push(e),this.clearCart(),e}getOrders(){return this.orders}getPaymentMethods(){return this.paymentMethods}getDeliveryMethods(){return this.deliveryMethods}};new class{constructor(){this.cart=[],this.init()}init(){this.bindEvents(),this.updateCartDisplay()}bindEvents(){document.addEventListener("click",t=>{if("В корзину"===t.target.textContent||"В корзину"===t.target.textContent.trim()){t.preventDefault();let e=t.target.closest(".card");e&&this.addToCartFromCard(e)}}),document.addEventListener("click",t=>{if("Купить"===t.target.textContent||"Купить"===t.target.textContent.trim()){t.preventDefault();let e=t.target.closest(".card");e&&(this.addToCartFromCard(e),this.openCart())}}),document.addEventListener("click",t=>{t.target.closest("[data-open-cart]")&&(t.preventDefault(),this.openCart())})}addToCartFromCard(t){let e=t.querySelector(".card-title"),a=t.querySelector(".card-price");if(e&&a){let t=e.textContent.trim();parseFloat(a.textContent.replace(/[^0-9.]/g,""));let o=c.getProducts().find(e=>e.name===t);o&&c.addToCart(o.id,1)&&(this.showNotification("Товар добавлен в корзину!"),this.updateCartDisplay())}}addToCart(t,e=1){return!!c.addToCart(t,e)&&(this.updateCartDisplay(),!0)}removeFromCart(t){c.removeFromCart(t),this.updateCartDisplay()}updateCartItemQuantity(t,e){c.updateCartItemQuantity(t,e),this.updateCartDisplay()}getCart(){return c.getCart()}getCartTotal(){return c.getCartTotal()}clearCart(){c.clearCart(),this.updateCartDisplay()}updateCartDisplay(){let t=this.getCart();this.getCartTotal();let e=document.querySelector(".cart-counter");if(e){let a=t.reduce((t,e)=>t+e.quantity,0);e.textContent=a,e.style.display=a>0?"block":"none"}let a=document.querySelector(".cart-modal");a&&"none"!==a.style.display&&this.renderCartItems()}renderCartItems(){let t=document.querySelector(".cart-items");if(!t)return;let e=this.getCart();if(0===e.length){t.innerHTML='<p class="empty-cart">Корзина пуста</p>';return}t.innerHTML=e.map(t=>`
       <div class="cart-item" data-product-id="${t.productId}">
         <div class="cart-item-image">
           <img src="${t.product.image}" alt="${t.product.name}" />
@@ -123,10 +123,10 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
           <span class="option-name">${t.icon} ${t.name}</span>
         </span>
       </label>
-    `).join(""),document.querySelector(".items-total").textContent=`$${e.toFixed(2)}`,this.updateCheckoutTotal(),a.addEventListener("change",()=>this.updateCheckoutTotal())}updateCheckoutTotal(){let t=document.querySelector('input[name="delivery"]:checked'),e=t&&c.getDeliveryMethods().find(e=>e.id===t.value)?.price||0,a=this.getCartTotal();document.querySelector(".delivery-total").textContent=`$${e}`,document.querySelector(".final-total").textContent=`$${(a+e).toFixed(2)}`}closeCheckout(){let t=document.querySelector(".checkout-modal");t&&(t.style.display="none")}handleOrderSubmit(t){t.preventDefault();let e=new FormData(t.target),a={name:e.get("name"),phone:e.get("phone"),email:e.get("email")},o=e.get("delivery"),u=e.get("payment");if(!a.name||!a.phone)return void this.showNotification("Пожалуйста, заполните обязательные поля");if(!o)return void this.showNotification("Пожалуйста, выберите способ доставки");if(!u)return void this.showNotification("Пожалуйста, выберите способ оплаты");try{let t=c.createOrder({customerInfo:a,delivery:o,payment:u});this.showNotification(`\u{417}\u{430}\u{43A}\u{430}\u{437} #${t.id} \u{443}\u{441}\u{43F}\u{435}\u{448}\u{43D}\u{43E} \u{43E}\u{444}\u{43E}\u{440}\u{43C}\u{43B}\u{435}\u{43D}!`),this.closeCheckout(),this.updateCartDisplay(),this.showOrderConfirmation(t)}catch(t){this.showNotification("Ошибка при оформлении заказа. Попробуйте еще раз."),console.error("Order error:",t)}}showOrderConfirmation(t){let e=c.getDeliveryMethods().find(e=>e.id===t.delivery),a=c.getPaymentMethods().find(e=>e.id===t.payment),o=document.createElement("div");o.className="confirmation-modal",o.innerHTML=`
+    `).join(""),document.querySelector(".items-total").textContent=`$${e.toFixed(2)}`,this.updateCheckoutTotal(),a.addEventListener("change",()=>this.updateCheckoutTotal())}updateCheckoutTotal(){let t=document.querySelector('input[name="delivery"]:checked'),e=t&&c.getDeliveryMethods().find(e=>e.id===t.value)?.price||0,a=this.getCartTotal();document.querySelector(".delivery-total").textContent=`$${e}`,document.querySelector(".final-total").textContent=`$${(a+e).toFixed(2)}`}closeCheckout(){let t=document.querySelector(".checkout-modal");t&&(t.style.display="none")}handleOrderSubmit(t){t.preventDefault();let e=new FormData(t.target),a={name:e.get("name"),phone:e.get("phone"),email:e.get("email")},o=e.get("delivery"),r=e.get("payment");if(!a.name||!a.phone)return void this.showNotification("Пожалуйста, заполните обязательные поля");if(!o)return void this.showNotification("Пожалуйста, выберите способ доставки");if(!r)return void this.showNotification("Пожалуйста, выберите способ оплаты");try{let t=c.createOrder({customerInfo:a,delivery:o,payment:r});this.showNotification(`\u{417}\u{430}\u{43A}\u{430}\u{437} #${t.id} \u{443}\u{441}\u{43F}\u{435}\u{448}\u{43D}\u{43E} \u{43E}\u{444}\u{43E}\u{440}\u{43C}\u{43B}\u{435}\u{43D}!`),this.closeCheckout(),this.updateCartDisplay(),this.showOrderConfirmation(t)}catch(t){this.showNotification("Ошибка при оформлении заказа. Попробуйте еще раз."),console.error("Order error:",t)}}showOrderConfirmation(t){let e=c.getDeliveryMethods().find(e=>e.id===t.delivery),a=c.getPaymentMethods().find(e=>e.id===t.payment),o=document.createElement("div");o.className="confirmation-modal",o.innerHTML=`
       <div class="confirmation-modal-content">
         <div class="confirmation-header">
-          <h2>\u{417}\u{430}\u{43A}\u{430}\u{437} \u{443}\u{441}\u{43F}\u{435}\u{448}\u{43D}\u{43E} \u{43E}\u{444}\u{43E}\u{440}\u{43C}\u{43B}\u{435}\u{43D}!</h2>
+          <h2 class="modal-text">\u{417}\u{430}\u{43A}\u{430}\u{437} \u{443}\u{441}\u{43F}\u{435}\u{448}\u{43D}\u{43E} \u{43E}\u{444}\u{43E}\u{440}\u{43C}\u{43B}\u{435}\u{43D}!</h2>
           <button class="close-confirmation">&times;</button>
         </div>
         <div class="confirmation-body">
@@ -222,12 +222,16 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
         cursor: pointer;
         color: #292929;
       }
-      .close-admin:hover { color: #222; }
+      .close-admin:hover { color: #000; }
       .admin-body { padding: 16px 20px; }
+
+      .modal-text {
+      color: #292929
+      }
 
       .order-item {
         background: #fafafa;
-        border: 1px solid #eee;
+        border: 1px solid #e5e7eb;
         border-radius: 8px;
         padding: 12px;
         margin-bottom: 12px;
@@ -241,11 +245,11 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
         flex-wrap: wrap;
       }
       .order-id { font-weight: 600; }
-      .order-date { color: #666; font-size: 13px; }
+      .order-date { color: #6b7280; font-size: 13px; }
       .order-status {
-        padding: 2px 10px;
+        padding: 4px 10px;
         border-radius: 999px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 600;
         color: #fff;
         background: #6c757d; /* \u{431}\u{430}\u{437}\u{43E}\u{432}\u{44B}\u{439} \u{446}\u{432}\u{435}\u{442}, \u{435}\u{441}\u{43B}\u{438} \u{43D}\u{435} \u{437}\u{430}\u{434}\u{430}\u{43D} \u{43A}\u{43B}\u{430}\u{441}\u{441} \u{441}\u{442}\u{430}\u{442}\u{443}\u{441}\u{430} */
@@ -257,7 +261,7 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
         align-items: center;
         justify-content: space-between;
         padding: 4px 0;
-        border-bottom: 1px dashed #e8e8e8;
+        border-bottom: 1px dashed #e5e7eb;
       }
       .order-item-product:last-child { border-bottom: 0; }
       .delivery-payment {
@@ -276,11 +280,24 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
     `,document.head.appendChild(e);let a=document.createElement("div");a.className="admin-modal",a.innerHTML=`
       <div class="admin-modal-content">
         <div class="admin-header">
-          <h2>\u0410\u0434\u043C\u0438\u043D-\u043F\u0430\u043D\u0435\u043B\u044C - \u0417\u0430\u043A\u0430\u0437\u044B</h2>
-          <button class="close-admin">&times;</button>
+          <h2 class="modal-text">\u0410\u0434\u043C\u0438\u043D-\u043F\u0430\u043D\u0435\u043B\u044C: \u0417\u0430\u043A\u0430\u0437\u044B</h2>
+          <button class="close-admin">
+          <svg
+          class="close-icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.1943 6.41714C19.6393 5.97216 19.6393 5.2507 19.1943 4.80571C18.7493 4.36073 18.0278 4.36073 17.5829 4.80571L12 10.3886L6.41714 4.80572C5.97216 4.36073 5.2507 4.36073 4.80571 4.80571C4.36073 5.2507 4.36073 5.97216 4.80571 6.41714L10.3886 12L4.80572 17.5829C4.36073 18.0278 4.36073 18.7493 4.80571 19.1943C5.2507 19.6393 5.97216 19.6393 6.41714 19.1943L12 13.6114L17.5829 19.1943C18.0278 19.6393 18.7493 19.6393 19.1943 19.1943C19.6393 18.7493 19.6393 18.0278 19.1943 17.5829L13.6114 12L19.1943 6.41714Z"
+            fill="#292929"
+          />
+        </svg>
         </div>
         <div class="admin-body">
-          ${0===t.length?`<p>\u0417\u0430\u043A\u0430\u0437\u043E\u0432 \u043F\u043E\u043A\u0430 \u043D\u0435\u0442</p>`:this.renderOrdersList(t)}
+          ${0===t.length?`<p class="modal-text">\u0417\u0430\u043A\u0430\u0437\u043E\u0432 \u043F\u043E\u043A\u0430 \u043D\u0435\u0442</p>`:this.renderOrdersList(t)}
         </div>
       </div>
     `,a.style.cssText=`
@@ -319,7 +336,7 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
             <div class="delivery-info">
               <strong>\u0414\u043E\u0441\u0442\u0430\u0432\u043A\u0430:</strong><br>
               ${e.icon} ${e.name}<br>
-              <span style="color: #2c5aa0;">$${e.price}</span>
+              <span style="color: #e59700;">$${e.price}</span>
             </div>
             <div class="payment-info">
               <strong>\u041E\u043F\u043B\u0430\u0442\u0430:</strong><br>
@@ -330,5 +347,5 @@ const t=document.getElementById("modal"),e=document.querySelectorAll("[data-open
             \u0418\u0442\u043E\u0433\u043E: $${t.total.toFixed(2)}
           </div>
         </div>
-      `}).join("")}},document.addEventListener("DOMContentLoaded",()=>{e.forEach(t=>t.addEventListener("click",o)),a.forEach(t=>t.addEventListener("click",u));let t=document.querySelector(".modal-form");t&&t.addEventListener("submit",e=>{e.preventDefault(),u(),alert("Спасибо! Мы свяжемся с вами."),t.reset()}),i.forEach(t=>t.addEventListener("click",s)),n.forEach(t=>t.addEventListener("click",d)),document.addEventListener("keydown",t=>{"Escape"===t.key&&(u(),d())})});
-//# sourceMappingURL=bose-test.731ad42a.js.map
+      `}).join("")}},document.addEventListener("DOMContentLoaded",()=>{e.forEach(t=>t.addEventListener("click",o)),a.forEach(t=>t.addEventListener("click",r));let t=document.querySelector(".modal-form");t&&t.addEventListener("submit",e=>{e.preventDefault(),r(),alert("Спасибо! Мы свяжемся с вами."),t.reset()}),i.forEach(t=>t.addEventListener("click",s)),n.forEach(t=>t.addEventListener("click",d)),document.addEventListener("keydown",t=>{"Escape"===t.key&&(r(),d())})});
+//# sourceMappingURL=bose-test.10bf0fed.js.map
