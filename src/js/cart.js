@@ -481,12 +481,13 @@ export class CartManager {
     const deliveryMethod = db.getDeliveryMethods().find(m => m.id === order.delivery);
     const paymentMethod = db.getPaymentMethods().find(m => m.id === order.payment);
 
+    // confirmation-modal styles???
     const confirmationModal = document.createElement('div');
     confirmationModal.className = 'confirmation-modal';
     confirmationModal.innerHTML = `
       <div class="confirmation-modal-content">
         <div class="confirmation-header">
-          <h2>Заказ успешно оформлен!</h2>
+          <h2 class="modal-text">Заказ успешно оформлен!</h2>
           <button class="close-confirmation">&times;</button>
         </div>
         <div class="confirmation-body">
